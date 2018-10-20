@@ -1,0 +1,33 @@
+1ere man de la minilibX
+-------------------------
+
+		man /usr/share/man/man3/mlx.1
+
+
+mlx_init() : 1ere function INDISPENSABLE qui me connecte au serveur graphque du MAC
+
+
+Il existe 4 autres man au meme endroit:
+---------------------------------------
+		All other MiniLibX functions are described in the following man pages:
+
+		mlx_new_window      : manage windows						--> gestion de fenetres
+							man /usr/share/man/man3/mlx_new_window.1
+
+		mlx_pixel_put       : draw inside window					--> de quelle facon on va pouvoir dessiner  a l interieur d une fenetre
+							man /usr/share/man/man3/mlx_pixel_put.1
+
+		mlx_new_image       : manipulate images						--> manipulation des images
+
+		mlx_loop            : handle keyboard or mouse events		--> man sur la boucle d evenements
+
+Comment compiler minilibx sur Mac OS:
+-------------------------------------
+		-lmlx -framework OpenGL -framework AppKit
+
+exple:
+	cc -I /usr/local/include main_open_a_window.c -L /usr/local/lib/ -lmlx -framework OpenGL -framework AppKit
+
+Tracer de trait : algo:
+--------------------------
+Algorithme de trace de segment de Bresenham

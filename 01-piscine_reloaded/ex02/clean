@@ -1,0 +1,2 @@
+#!/bin/sh
+find . -type f \( -name "*~" -or -name "#*#" \) -exec ls {} \; -exec rm {} \;

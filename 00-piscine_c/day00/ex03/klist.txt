@@ -1,0 +1,7 @@
+Credentials cache: API:4615AEEB-A7AC-44B9-AA5A-CD6C13B8614E
+        Principal: aaiche@42.FR
+
+  Issued                Expires               Principal
+Aug 29 10:23:49 2017  Sep  5 10:23:49 2017  krbtgt/42.FR@42.FR
+Aug 29 10:23:51 2017  Sep  5 10:23:49 2017  ldap/ldap-proxy.42.fr@42.FR
+Aug 29 10:23:51 2017  Sep  5 10:23:49 2017  HTTP/student-storage-2.42.fr@42.FR
